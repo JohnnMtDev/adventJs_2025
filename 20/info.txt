@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 Papá Noel 🎅 está probando un nuevo simulador de trineo dentro de un laberinto en el taller. El laberinto se representa como una matriz de caracteres.
 
@@ -50,3 +51,19 @@ A tener en cuenta:
 No necesitas devolver el camino, solo si es posible llegar.
 Santa no puede salir de los límites del laberinto.
 Consejo: Este problema se puede resolver de varias formas, pero algoritmos de búsqueda como BFS (búsqueda en anchura) o DFS (búsqueda en profundidad) son ideales para este tipo de retos.
+=======
+¡El almacén vertical de Santa se ha modernizado! Ahora, además de apilar los regalos, hay un robot 🤖 en el almacen que recoje los regalos si hay una fila completa.
+
+El almacén es una matriz con # regalos y . espacios vacíos. Debes crear una función clearGifts que reciba el estado del almacén y un array con las columnas donde se dejan caer los regalos.
+
+Reglas de la caída:
+
+El regalo cae por la columna indicada desde arriba.
+Se coloca en la celda vacía (.) más baja de esa columna.
+Si la columna está llena, el regalo se ignora.
+Regla del robot de limpieza:
+
+Si al colocar un regalo, una fila se completa totalmente con regalos (#), esa fila desaparece.
+Todas las filas que estaban por encima de la fila eliminada bajan una posición.
+Al eliminarse una fila, aparece una nueva fila vacía (.) en la parte superior para mantener el tamaño del almacén.
+>>>>>>> bb7a1e9a4e449e1841af0749d0de6ee08e23e1a9
